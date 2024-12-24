@@ -6,8 +6,10 @@ import CurrencyConverter from "./components/CurrencyConverter";
 export default function App() {
   return (
     <PaperProvider>
-      <SafeAreaView>
-        <CurrencyConverter></CurrencyConverter>
+      <SafeAreaView style={styles.container}>
+        <View>
+          <CurrencyConverter></CurrencyConverter>
+        </View>
       </SafeAreaView>
     </PaperProvider>
   );
