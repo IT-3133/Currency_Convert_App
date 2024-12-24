@@ -14,5 +14,16 @@ start the project: npx expo start
 ......................................................................................................................................................................................................................
 <h3>outputs</h3>
 
-<img src='Output1.jpg'>
-<img src='Output2.jpg'>
+
+<table>
+  <tr>
+    <td style="border-right: 2px solid black; padding-right: 10px;">
+      <img src='Output1.jpg' width="400">
+    </td>
+    <td style="padding-left: 10px;">
+      <img src='Output2.jpg' width="400">
+    </td>
+  </tr>
+</table>
+
+
