@@ -13,6 +13,16 @@ export default function CurrencyConverter() {
     LKR: 294.5,
   };
 
+  // Conversion handler
+  const handleConvert = () => {
+    const numericAmount = parseFloat(amount);
+
+    if (isNaN(numericAmount) || numericAmount <= 0) {
+      Alert.alert("Invalid Input", "Please enter a valid amount.");
+      return;
+    }
+  };
+
   return (
     <View style={styles.container}>
       <View style={styles.title}>
