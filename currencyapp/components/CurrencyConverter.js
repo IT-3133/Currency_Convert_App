@@ -21,6 +21,13 @@ export default function CurrencyConverter() {
       Alert.alert("Invalid Input", "Please enter a valid amount.");
       return;
     }
+    if (currencyType === "USDtoLKR") {
+      const converted = numericAmount * exchangeRates.LKR;
+      setConvertedAmount(converted.toFixed(2));
+    } else if (currencyType === "LKRtoUSD") {
+      const converted = numericAmount / exchangeRates.LKR;
+      setConvertedAmount(converted.toFixed(2));
+    }
   };
 
   return (
