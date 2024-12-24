@@ -11,3 +11,6 @@ Project Creation: npx create-expo-app currencyapp --template blank
 install react native paper: npm install react-native-paper
 install react native safe area: npm install react-native-safe-area-context
 start the project: npx expo start
+......................................................................................................................................................................................................................
+<h3>outputs</h3>
+
